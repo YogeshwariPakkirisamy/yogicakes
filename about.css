@@ -1,0 +1,307 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: -20px;
+
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6cc9c3;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+}
+
+.logo img {
+  width: 100px;
+  border-radius: 50px;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-right: 100px;
+  background-color: #6cc9c3;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+nav #toggle,
+nav label {
+  display: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+  text-decoration-line: underline;
+}
+  
+
+body{
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  position: relative;
+  height: calc(100vh - 80px);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.abtimg img{
+  margin-top: -230px;
+}
+.new-2{
+  margin: 10px 150px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.new-2 h2{
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+   
+}
+.menu h1{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu-box{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 140px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  height: 350px;
+  max-width: 300px;
+  background: #f8f0f7;
+  flex-direction: column;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 3);
+  padding: 2px;
+  text-align: center;
+}
+
+.menu-box  .menu-img{
+  height: 200px;
+  width: 250px;
+   
+}
+
+.menu-box  .menu-img img{
+  max-width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+
+/* mobile */
+@media (max-width: 400px) {
+
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+
+  }
+ 
+  nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer;
+  }
+
+  nav #toggle:checked ~ .menu {
+    height: 100%;
+    margin-left: 30px;
+  }
+  .abtimg img{
+    margin-top: 130px;
+    width: 100%;
+    height: 200px;
+  }
+      
+  .wrapper{
+    margin-top: 10px;
+
+  }
+  .new-2{
+    margin-left: 150px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8px;
+    
+ }
+ .new-2 h1{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 16px;
+    
+ }
+
+ .menu h1{
+  margin-top: 20px;
+ 
+}
+.menu-box{
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  display: inline-block;
+  padding: 2px;
+  height: 250px;
+  background: #f8f0f7;
+  display: flex;
+  width: 155px;
+
+}
+
+
+.menu-box  .menu-img{
+  height: 125px;
+  width: 150px;
+ 
+}
+.menu-box  .menu-img h2{
+  font-size: 14px;
+ 
+}
+.menu-box  .menu-img p{
+  font-size: 12px;
+ 
+}
+
+.menu-box  .menu-img img{
+  border-radius: 6px;
+}
+
+
+
+}
+
+
+/* Tablet */
+@media (min-width: 401px) and (max-width: 700px){
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+
+  nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer;
+  }
+
+  nav #toggle:checked ~ .menu{
+    height: 100%;
+    margin-left: 55px;
+    margin-right: -100px;
+  }
+
+  .abtimg img{
+    margin-top: 130px;
+    width: 100%;
+    height: 100%;
+      
+  }
+  .wrapper{
+    margin-top: 10px;
+
+  }
+  .new-2{
+    margin-left: 150px;
+    margin-top: -20px;margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8px;
+    
+ }
+ .new-2 h1{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    
+ }
+
+ .menu h1{
+  margin-top: 20px;
+ 
+}
+.menu-box{
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  padding: 2px;
+  height: 250px;
+  background: #f8f0f7;
+  width: 155px;
+
+}
+.main-menu{
+  display: flex;
+}
+.menu-box  .menu-img{
+  height: 125px;
+  width: 150px;
+ 
+}
+.menu-box  .menu-img h2{
+  font-size: 14px;
+ 
+}
+.menu-box  .menu-img p{
+  font-size: 12px;
+ 
+}
+
+.menu-box  .menu-img img{
+  border-radius: 6px;
+}
+
+}
+
+
+
+
+
+
+
+

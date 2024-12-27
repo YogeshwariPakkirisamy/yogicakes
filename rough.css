@@ -1,0 +1,495 @@
+header{    position: fixed;
+    width: 100%;
+    
+}
+
+nav{
+   
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6cc9c3;
+    margin-left: -400px;
+}
+    
+nav ul{
+    list-style: none;
+    margin-left: -500px;
+    
+}
+
+nav ul li{
+   display: inline;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700; 
+}
+
+nav li{
+    margin-left: -70px;
+}
+
+nav ul li a:hover{
+   /* color: rgb(123, 0, 105); */
+   color: whitesmoke;
+   text-decoration-line: underline;
+   text-underline-offset: 6px;
+   text-decoration-color: black;
+}
+
+nav .icons i{
+    margin: 20px;
+    cursor: pointer;
+}
+
+nav .icons i:hover{
+   color: rgb(151, 36, 105);
+}
+
+.logo img{
+    margin-top: 10px;
+    margin-left:250px;
+    border-radius: 100px;
+    width: 50px;
+}
+
+.myimg1
+{
+    margin-top: 30px;
+    width: 900px;
+
+}
+
+.all{
+    margin-top: -570px;
+}
+
+.name{
+    margin-top: 120px;
+    margin-left: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #ec9832; 
+}
+.para{
+    margin-top: 20px;
+    margin-left: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #ec9832;    
+}
+
+.del{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightgreen;
+    padding: 30px;
+    width: 275%;
+}
+
+.para1 h2{
+    font-size: 25px;
+}
+.para1 p{
+    font-size: 25px;
+}
+
+.para1{
+    margin-right: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.best h3{
+   font-size: 60px;
+   margin-left: 270px;
+}
+
+.best-img {
+    width: 500px;
+    height: 400px;
+}
+
+
+
+*/*
+
+@media (max-width: 40.625em) {
+    nav .menu {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+    nav label {
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
+    }
+    nav #toggle:checked ~ .menu {
+      height: 100%;
+    }
+  }
+      <div class="wrapper">
+        <nav>
+            <a href="#" class="logo">
+                <img src="NEW IMAGES/YOGI CAKES (1).png">
+            </a>
+            <input type="checkbox" name="" id="toggle">
+
+            <label for="toggle">
+                <i class="material-icons">menu</i>
+            </label>
+  
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="new arrivals.html">New Arrivals</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    /* mobile */
+@media (max-width: 350px) {
+    nav .menu {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+
+    nav label {
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
+    }
+    nav #toggle:checked ~ .menu {
+      height: 100%;
+      margin-left: 55px;
+    }
+
+    .myimg1{
+        margin-top: 130px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .all{
+        margin-top: -200px;
+        margin-left: -500px;
+    }
+    
+    .name{
+        margin-top: 30px;
+        margin-left: 580px;
+        font-size: 25px;
+        color: #b7ff00; 
+        text-transform: uppercase;
+    }
+    .para{
+        margin-top: 10px;
+        margin-left: 540px;
+        font-size: 18px;
+        width: 140px;
+        color: whitesmoke;    
+    }
+
+    .btn-1{
+        margin-left: 550px;
+        margin-top: 10px;
+
+        background: #6cc9c3;
+        height: 30px;
+        font-weight: 600;
+        font-size: 10px;
+        
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .btn-1:hover{
+        background-color: #b7ff00;
+        color: rgb(9, 8, 9);
+        cursor: pointer;
+    }
+
+    .del{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: lightgreen;
+        width: 100%;
+    }
+
+    .first{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    
+    }
+
+    .second
+    {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .para1 h2{
+        font-size: 15px;
+    }
+    
+    .para1 p{
+        font-size: 12px;
+    }
+
+    .best-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 100px;
+    
+    }
+    
+    .best-box{
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        border: 10px double lightcoral;
+        width: 370px;
+        height: 330px;
+        background-color: lightgreen;
+    }
+    
+    .best-box2{
+        margin-left: 20px;
+        margin-right: 120px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        
+        border: 10px double lightcoral;
+        width: 270px;
+        height: 330px;
+        background-color: lightgreen;
+    
+    }
+    
+
+    .best-img img{
+    
+        height: 200px;
+        width: 200px;
+    }
+
+
+    .cont{
+        margin-top: 10px;
+        
+    }
+    
+    .btn-2
+    {
+        margin-top: 10px;
+        height: 30px;
+        width: 100px;
+        background-color: rgb(236, 220, 125);
+        border-radius: 7px;
+        font-weight: 900;
+    }
+    
+    .btn-2:hover{
+        background-color: rgb(221, 105, 28);
+        color: white;
+    
+    }
+    
+    .cont p{
+        font-size: 15px;
+    }
+}
+
+
+  /* Tablet */
+  @media (min-width: 351px) and (max-width: 570px){
+    nav .menu {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+
+    nav label {
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
+    }
+    nav #toggle:checked ~ .menu {
+      height: 100%;
+      margin-left: 55px;
+    }
+
+    .myimg1{
+        margin-top: 130px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .all{
+        margin-top: -200px;
+        margin-left: -500px;
+    }
+    
+    .name{
+        margin-top: 30px;
+        margin-left: 580px;
+        font-size: 25px;
+        color: #b7ff00; 
+        text-transform: uppercase;
+    }
+    .para{
+        margin-top: 10px;
+        margin-left: 540px;
+        font-size: 18px;
+        width: 140px;
+        color: whitesmoke;    
+    }
+
+    .btn-1{
+        margin-left: 550px;
+        margin-top: 10px;
+
+        background: #6cc9c3;
+        height: 30px;
+        font-weight: 600;
+        font-size: 10px;
+        
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .btn-1:hover{
+        background-color: #b7ff00;
+        color: rgb(9, 8, 9);
+        cursor: pointer;
+    }
+
+    .del{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: lightgreen;
+        width: 100%;
+    }
+
+    .first{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    
+    }
+
+    .second
+    {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .para1 h2{
+        font-size: 15px;
+    }
+    
+    .para1 p{
+        font-size: 12px;
+    }
+
+    .best-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .best-box{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        border: 10px double lightcoral;
+        width: 380px;
+        height: 170px;
+        background-color: lightgreen;
+        display: flex;
+    }
+    
+    .best-box2{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        
+        border: 10px double lightcoral;
+        width: 310px;
+        height: 170px;
+        background-color: lightgreen;
+        display: flex;
+    
+    }
+    
+
+    .best-img img{
+    
+        height: 150px;
+        width: 150px;
+    }
+
+
+    .cont{
+        margin-top: 15px;
+        margin-left: 30px;
+        display: block;
+        margin-right: 30px;
+        
+    }
+
+     
+    .cont p{
+        font-size: 20px;
+    }
+    
+    .btn-2
+    {
+        margin-top: 110px;
+        margin-left: -130px;
+        height: 30px;
+        width: 80px;
+        background-color: rgb(236, 220, 125);
+        border-radius: 7px;
+        font-weight: 900;
+        font-size: 11px;
+    }
+    
+    .btn-2:hover{
+        background-color: rgb(221, 105, 28);
+        color: white;
+    
+    }
+   
+}
+ 
